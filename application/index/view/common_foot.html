@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<div class="copyright text center footer container" id="footer">
+    <div class="row" style="width:100%">
+        <div class="col-md-12 col-sm-12 col-xs-12" style="width:100%">
+            <p>&copy; 2018 zard-forever.com 粤ICP备 18001537号
+                <span><a href="{:url('index/call_to_us')}">联系我们</a></span>
+                <span><a href="javascript:">常见问题</a></span>
+                <span><a href="{:url('index/suggestion')}">意见反馈</a></span>
+                <span><a href="javascript:" data-toggle="popover" data-html="true" data-placement="top" data-content="<img src='__STATIC__/image/微信.jpg' alt='zard-forever'>" data-container="body" data-trigger="hover">微信公众号</a></span>
+                <span><a href="{:url('index/friendly_link')}">友情链接</a></span>
+            </p>
+        </div>
+    </div>
+</div>  
+    <script>
+        $(function (){
+             $("[data-toggle='popover']").popover();
+        });
+        window.onresize = function(){
+                if(document.body.clientWidth<=1000){
+                   document.getElementById("h1-style").style.fontSize="40px"; 
+                }else{
+                    document.getElementById("h1-style").style.fontSize="80px";
+                }
+        }
+        if(window.innerWidth<=1000){
+               document.getElementById("h1-style").style.fontSize="40px"; 
+            }else{
+                document.getElementById("h1-style").style.fontSize="80px";
+        }
+    </script>
+     <script src="http://www.dodobook.net/demo/mouse_star/dodobook.js"> </script>
+  </body>
+</html>

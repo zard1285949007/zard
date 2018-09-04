@@ -1,0 +1,170 @@
+{include file="common_head" /}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>music</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Styles -->
+    <link href="__STATIC__/index/mv/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="__STATIC__/index/assets/css/style.css" >
+    <link rel="stylesheet" href="__STATIC__/index/mv/css/index.css">
+    <link rel="stylesheet" href="__STATIC__/index/music/css/index.css">
+    <script src="__STATIC__/index/mv/js/index.js"></script>
+    <script src="__STATIC__/index/music/js/index.js"></script>
+    
+    <style >
+        
+    </style>
+  </head>  
+<body>
+<hr>
+<div class="container" id="search">  
+    <div class="order-div" style="width:540px">
+        <div class="select-merge col-sm-0" >
+            <input type="radio" name="mv_select" id="select1" {if condition="$value eq 0"}checked="checked"{/if}  value="0">
+            <label for="select1">时间排序</label><br>
+             <input type="radio" name="mv_select" id="select2" value="1" {if condition="$value eq 1"}checked="checked"{/if} >
+            <label for="select2">中文排序</label>
+        </div>
+        <div class="select-merge">
+            <input type="radio" name="mv_select" id="select3" value="2" {if condition="$value eq 2"}checked="checked"{/if} >
+            <label for="select3" >专辑排序</label><br>
+            <input type="radio" name="mv_select" id="select4" value="3" {if condition="$value eq 3"}checked="checked"{/if} >
+            <label for="select4" >人气排序</label>
+        </div>
+        <div class="select-merge">
+           <input type="radio" name="mv_select" id="select5" value="4" {if condition="$value eq 4"}checked="checked"{/if} >
+            <label for="select5">单曲</label>
+        </div>
+    </div>
+    <form action="{:url('music/index')}" method="get">
+        <div class="search-div" id="search-div-id">
+            <input type="text" name="nickname" placeholder="请输入部分日文或中文" value="{$nickname}" autofocus=true id="search_text">
+            <button class="search-button">
+                <div class="glyphicon glyphicon-search"><input type="submit" hidden></div>
+            </button>
+        </div>
+    </form>
+</div>
+<hr>
+<div class="col-md-12 col-sm-12 col-xs-12" id="progress">
+    <div class="progress progress-striped active" style="width:100%;position:relative;padding:0px" id="progress_active">
+        <span id="music_current" style="position:absolute;left:15px;line-height:20px;letter-spacing:2px;font-weight:bold">0:00</span>
+        <div class="progress-bar progress-bar-info" role="progressbar"
+             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+             style="width:0%;" id="progressbar">
+        </div>
+        <span id="music_length" style="position:absolute;right:15px;line-height:20px;letter-spacing:2px;font-weight:bold"></span>
+    </div>
+</div>
+<div class="panel-group" id="accordion">
+    {volist name="data" id="vo" key="k"}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                href="<?php echo '#'.$k;?>" style="text-decoration: none">
+                {$k}.{$vo[0]['sole_name']}({$vo[0]['sole_time']})
+                </a>
+            </h4>
+        </div>
+        <div id="{$k}" class="panel-collapse collapse {if condition='$k eq 1'}in{/if}">
+            <div class="panel-body">
+                <div class="container" style="margin:0px;width:100%">
+                    <div class="row" style="width:100%">
+                    {php}for($i=0;$i<count($vo);$i++){{/php}
+                        <div class="col-md-3 col-sm-4 col-xs-12  div-common" style="margin-top:25px">
+                            <a href="javascript:;" target="_blank" >
+                                <div class="music-module">
+                                    <div class="music-body" style="position:relative">
+                                        <a href="javascript:" data-toggle="popover" data-html="true" data-placement="top" data-content="<div><p>发行时间：{$vo[$i]['issue_time']|date='Y-m-d',###}</p><p>中文名：{$vo[$i]['chinese_name']}</p><p>作曲：{$vo[$i]['composer']}</p><p>作词：{$vo[$i]['lyricists']}</p><p>tips：{$vo[$i]['comment']}</p></div>" data-container="body" data-trigger="hover">
+                                        <span class="badge" style="position:absolute;top:0px;left:0px;z-index:5">?                            
+                                        </span>
+                                        </a>
+                                        <div class="music-body-left" style="padding-top:15px">
+                                            <p style="color:black;font-weight:bold">{$vo[$i]['japanese_name']}</p>
+                                        </div>
+                                        <div class="music-body-rightall">
+                                            <div class="music-body-hover glyphicon glyphicon-play-circle" src="{$vo[$i]['src']}"></div>
+                                        </div>
+                                    </div>
+                                    <div class="music-foot"></div>
+
+                                </div>
+                            </a>
+                        </div>
+                    {php}}{/php}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/volist}
+    <audio src="" controls="controls" loop="loop"  style="float:right" id="audio"  id="audio" hidden>
+                    
+     </audio> 
+</div>
+<script>
+        window.onresize = function(){
+                // alert( );
+                if(document.body.clientWidth<=1000){
+                   document.getElementById("search-div-id").style.display="none"; 
+                }else{
+                    document.getElementById("search-div-id").style.display="block";
+                }
+            }
+        if(window.innerWidth<=1000){
+               document.getElementById("search-div-id").style.display="none";  
+            }else{
+                document.getElementById("search-div-id").style.display="block";
+        }
+</script>
+<script>
+        $(function (){
+             //将文本的焦点移到最后
+            var text=$("#search_text").val(); 
+            $("#search_text").val("").focus().val(text); 
+            
+             $("[data-toggle='popover']").popover();
+
+             //排序点击事件
+             $("input[name='mv_select']").change(function(){
+                var value=$(this).val();
+                var url="/index/music/index.html?value="+value;
+                window.location.href=url;
+             })
+            
+        });
+         //获取随机安全色
+        function getRandomSafeColor() {
+            var base = ['00','33','66','99','CC','FF'];     //基础色代码
+            var len = base.length;                          //基础色长度
+            var bg = new Array();                           //返回的结果
+            var random = Math.ceil(Math.random()*215+1);    //获取1-216之间的随机数
+            var res;
+            for(var r = 0; r < len; r++){  
+                for(var g = 0; g < len; g++){  
+                    for(var b = 0; b < len; b++){   
+                        bg.push('#'+base[r].toString()+base[g].toString()+base[b].toString());
+                    }  
+                };  
+            };
+            for(var i=0;i<bg.length;i++){
+                res =  bg[random];
+            }
+            return res;
+        }
+        var background=document.getElementsByClassName("music-body");
+        for(var i=0;i<background.length;i++){
+            background[i].style.background=getRandomSafeColor();
+        }
+
+
+</script>
+
+</body>
+</html>
+<!---- Footer ---->
+{include file="common_foot" /}
