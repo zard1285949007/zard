@@ -1,0 +1,1800 @@
+[ 2017-12-18T21:34:15+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.168346s][吞吐率：5.94req/s] [内存消耗：1,683.08kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T21:34:26+08:00 ] ::1 ::1 GET /public/admin
+[ log ] localhost:82/public/admin [运行时间：0.088189s][吞吐率：11.34req/s] [内存消耗：1,702.55kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy\WWW\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T21:34:42+08:00 ] ::1 ::1 GET /public/admin/index/music.html
+[ log ] localhost:82/public/admin/index/music.html [运行时间：0.129286s][吞吐率：7.73req/s] [内存消耗：2,789.06kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'music',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/admin',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->music[ D:\phpstudy\WWW\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/admin\view\index\music.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001483s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `music` [ RunTime:0.062539s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `music` LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `music` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000508s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:04:52+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.047807s][吞吐率：20.92req/s] [内存消耗：1,683.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:05:37+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.220272s][吞吐率：4.54req/s] [内存消耗：2,712.13kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034440s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.027623s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000386s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:10:46+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.047370s][吞吐率：21.11req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:12:36+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.117805s][吞吐率：8.49req/s] [内存消耗：2,858.83kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000919s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.007547s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000504s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:12:36+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.059540s][吞吐率：16.80req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:12:53+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.086540s][吞吐率：11.56req/s] [内存消耗：2,858.88kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011410s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.007424s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000461s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:12:53+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.096017s][吞吐率：10.41req/s] [内存消耗：2,712.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.007537s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000559s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:13:25+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.099258s][吞吐率：10.07req/s] [内存消耗：2,858.96kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010324s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.008296s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000440s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:13:25+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.127915s][吞吐率：7.82req/s] [内存消耗：2,712.40kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002455s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.007750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000404s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:15:59+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.113791s][吞吐率：8.79req/s] [内存消耗：2,858.83kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.010463s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000557s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:16:42+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.079159s][吞吐率：12.63req/s] [内存消耗：2,858.82kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010265s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.007717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000434s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:18:50+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.085313s][吞吐率：11.72req/s] [内存消耗：2,858.98kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000928s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.007788s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000459s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:30:08+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.045866s][吞吐率：21.80req/s] [内存消耗：1,683.09kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:34:26+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.043412s][吞吐率：23.04req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:35:36+08:00 ] ::1 ::1 GET /public/admin
+[ log ] localhost:82/public/admin [运行时间：0.046665s][吞吐率：21.43req/s] [内存消耗：1,702.57kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy\WWW\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:43:43+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.093744s][吞吐率：10.67req/s] [内存消耗：1,839.91kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:45:04+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.064994s][吞吐率：15.39req/s] [内存消耗：1,840.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:45:15+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.054387s][吞吐率：18.39req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:47:27+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.053819s][吞吐率：18.58req/s] [内存消耗：1,840.01kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:48:11+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.055370s][吞吐率：18.06req/s] [内存消耗：1,840.04kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:48:33+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.054084s][吞吐率：18.49req/s] [内存消耗：1,840.16kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:48:36+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.042327s][吞吐率：23.63req/s] [内存消耗：1,380.53kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:52:44+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.056443s][吞吐率：17.72req/s] [内存消耗：1,840.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:53:04+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.059983s][吞吐率：16.67req/s] [内存消耗：1,840.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:54:08+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.050708s][吞吐率：19.72req/s] [内存消耗：1,840.08kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:54:44+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.060369s][吞吐率：16.56req/s] [内存消耗：1,840.34kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:55:08+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.066633s][吞吐率：15.01req/s] [内存消耗：1,840.21kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:55:08+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.073150s][吞吐率：13.67req/s] [内存消耗：1,683.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:55:58+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.120263s][吞吐率：8.32req/s] [内存消耗：2,859.02kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000998s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.016876s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000913s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:57:06+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.040570s][吞吐率：24.65req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:58:56+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.087456s][吞吐率：11.43req/s] [内存消耗：2,859.16kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010498s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.007261s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000467s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:58:57+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.164018s][吞吐率：6.10req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:58:59+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.087394s][吞吐率：11.44req/s] [内存消耗：2,712.46kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000935s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.011398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000529s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T22:58:59+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.064863s][吞吐率：15.42req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T22:59:19+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.044838s][吞吐率：22.30req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:00:08+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.094139s][吞吐率：10.62req/s] [内存消耗：2,859.16kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010551s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.008828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000415s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:00:09+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.087363s][吞吐率：11.45req/s] [内存消耗：1,380.53kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:00:43+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.058465s][吞吐率：17.10req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:08+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.086714s][吞吐率：11.53req/s] [内存消耗：2,859.34kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.009016s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000427s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:09+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.084411s][吞吐率：11.85req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:09+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.068763s][吞吐率：14.54req/s] [内存消耗：2,712.30kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000759s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.008705s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000415s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:10+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.069558s][吞吐率：14.38req/s] [内存消耗：1,380.53kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:11+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.081486s][吞吐率：12.27req/s] [内存消耗：2,712.46kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000936s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.009332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000512s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:12+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.062726s][吞吐率：15.94req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:52+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.081441s][吞吐率：12.28req/s] [内存消耗：2,712.30kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.009222s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000410s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:01:53+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.074635s][吞吐率：13.40req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:02:03+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.037955s][吞吐率：26.35req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:02:32+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.079459s][吞吐率：12.59req/s] [内存消耗：2,859.16kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001019s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.009783s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000621s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:02:33+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.065062s][吞吐率：15.37req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:02:34+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.071981s][吞吐率：13.89req/s] [内存消耗：2,712.30kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.008887s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000492s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:02:34+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.107762s][吞吐率：9.28req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:04:25+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.098345s][吞吐率：10.17req/s] [内存消耗：2,860.11kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011725s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.008082s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.000550s ]
+
+---------------------------------------------------------------
+[ 2017-12-18T23:04:26+08:00 ] ::1 ::1 GET /public/static/index/assets/bootstrap/css/bootstrap.css.map
+[ log ] localhost:82/public/static/index/assets/bootstrap/css/bootstrap.css.map [运行时间：0.075302s][吞吐率：13.28req/s] [内存消耗：1,380.55kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'assets',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'bootstrap' => 'css',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:05:07+08:00 ] ::1 ::1 GET /public/
+[ log ] localhost:82/public/ [运行时间：0.044747s][吞吐率：22.35req/s] [内存消耗：1,840.26kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-18T23:05:57+08:00 ] ::1 ::1 GET /public/index/mv/index.html
+[ log ] localhost:82/public/index/mv/index.html [运行时间：0.115354s][吞吐率：8.67req/s] [内存消耗：2,860.14kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpstudy\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'mv',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:82',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4033.400 QQBrowser/9.6.12624.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost:82/public/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Mv->index[ D:\phpstudy\WWW\application\index\controller\Mv.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\public/../application/index\view\mv\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001656s ] mysql:dbname=zard;host=127.0.0.1;port=83;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `mv` [ RunTime:0.009332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `mv` LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `mv` ORDER BY `id` LIMIT 0,3 [ RunTime:0.001531s ]
+
+---------------------------------------------------------------
