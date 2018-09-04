@@ -1,0 +1,63 @@
+/*搜索div的样式*/
+#search-div{
+	width:100%;
+	height:50px;
+	background:yellow;
+}
+#search-div div:first-child{
+	float:left;
+}
+#search-div div:first-child button{
+	width:100px;
+	height:50px;
+	font-size:25px;
+	letter-spacing:5px;
+	padding:0px;
+	border:0px;
+
+}
+#search-div div:first-child button:nth-child(2){
+	width:150px;
+}
+#search-div div:last-child{
+	float:right;
+}
+#search-div div:last-child input[type="text"]{
+	width:350px;
+	height:50px;
+	font-size:25px;
+}
+#search-div div:last-child input[type="button"]{
+	width:70px;
+	height:50px;
+	font-size:25px;
+	letter-spacing:5px;
+}
+#search-div div:last-child input[type="submit"]{
+	width:70px;
+	height:50px;
+	font-size:25px;
+	letter-spacing:5px;
+}
+/*主要身体部分的内容样式*/
+#main-body{
+	width:100%;
+	height:100px;
+/*	background:blue;*/
+	margin-top:20px;
+ }
+ #main-body table{
+ 	border:2px solid black;
+ 	width:100%;
+ }
+ #main-body table tr{
+ 	width:100%;	
+ 	text-align:center;
+ 	font-size:18px;
+  }
+ #main-body table td,#main-body table th{
+	border:1px solid black;
+ }
+#main-body table th{
+	text-align:center;
+}
