@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"1106613216","appkey":"MBmRNiVmY96mgBAd","callback":"http://zard-forever.com/index/login/index.html","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"QQ_CONNECT_SDK_ROOT","password":"QQ_CONNECT_SDK_ROOT","database":"test"}
