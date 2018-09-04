@@ -1,0 +1,91 @@
+body{
+	background:#FEFBE4;
+}
+#search{
+	width:100%;
+	height:100px;
+	border:5px groove #DDDDDD;
+	box-shadow:2px 2px 2px #8A8A8A;
+}
+/*排序样式的设置*/
+.order-div{
+	height:90px;
+	float:left;
+}
+.order-div input{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	margin-top:15px;
+	margin-left:15px;
+}
+.order-div label{
+	position:relative;
+	top:-5px;
+	font-size:20px;
+	margin-right:25px;
+	margin-left:5px;
+	font-weight:bold;
+}
+.select-merge{
+	float:left;
+	position:relative;
+}
+/*搜索的样式*/
+.search-div{
+	float:right;
+	position:relative;
+	width:400px;
+	height:90px;
+}
+.search-div input{
+	margin-top:25px;
+	height:40px;
+	width:250px;
+	border-radius:3px;
+	font-size:20px;
+}
+.glyphicon{
+	font-size:30px;
+	position:absolute;
+	top:55px;
+	left:70px;
+	display:inline-block;
+}
+.search-button{
+	position:absolute;
+	left:255px;
+	top:25px;
+	width:70px;
+	height:40px;
+	border-radius:3px;
+}
+.search-button:hover{
+	opacity:0.5;
+}
+/*图片格式处理*/
+.div-all{
+	position:relative;
+}
+.img-responsive{
+	height:200px;
+	width:100%;
+	border-radius:0px 0px 10px 10px;
+}
+.img-head{
+	height:50px;
+	background:red;
+	border-radius:10px 10px 0px 0px;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+}
+.img-foot{
+	position:absolute;
+	bottom:0px;
+	background:blue;
+	height:50px;
+	width:100%;
+	opacity:0.7;
+	border-radius:0px 0px 10px 10px;
+}

@@ -1,0 +1,51 @@
+body{
+	background: #F7F7F7;
+}
+/*music模块样式设计*/
+.div-common{
+	padding-left:30px;
+	padding-right:30px;
+}
+.music-module{
+	height:100px;
+	box-shadow:1px 1px 1px #E2DFDE;
+	border-radius:7px;
+}
+.music-body{
+	width:100%;
+	height:80%;
+	border-radius:7px 7px 0px 0px;
+}
+.music-body-left{
+	margin-top:10px;
+	padding-left:15px;
+	padding:;
+	width:80%;
+	float:left;
+}
+.music-body-rightall{
+	border-radius:7px 7px 0px 0px;
+	width:20%;
+	height:100%;
+	float:right;
+	position:relative;
+}
+
+.music-body-hover{
+	font-size:35px;
+	color:white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-15px;
+	margin-left:-15px;
+}
+.music-foot{
+	background:white;
+	width:100%;
+	height:20%;
+	border-radius:0px 0px 7px 7px;
+	color:black;
+	font-weight:bold;
+}
+

@@ -1,0 +1,127 @@
+body{
+	background:#FEFBE4;
+}
+/*导航栏的样式*/
+#navbar-section{
+	background:#FEFBE4;
+	/*opacity:0.5;*/
+	border-radius:5px;
+	border:2px inset #8DB6CD;
+	box-shadow:2px 2px 2px #8DB6CD;
+	height:150px;
+}
+#font-head{
+	margin-top:-25px;
+}
+/*导航栏字体样式*/
+@font-face{
+    font-family:"memory";
+    src:url('font/Niconne-Regular.ttf');
+}
+h1{
+    font-family:"memory";
+    font-size: 80px;
+    text-align: left;
+    color: #86AED2;
+    margin: 40px; 
+    word-spacing:25px;
+    font-weight: 500;           
+}
+/*模块的整体样式*/
+.services-group{
+	position:relative;
+	height:500px;
+	background:#8DB6CD;
+	border-radius:20px;
+	border:2px groove #7D9EC0;
+	box-shadow:2px 2px 5px gray;
+}
+/*模块的头部样式*/
+.services-header{
+	background:white;
+	width:100%;
+	opacity:0.8;
+	height:70px;
+	border-radius:20px 20px 0 0;
+	margin:0px;
+}
+/*模块的标题样式*/
+.services-header h2{
+	color:#EA2000;
+	line-height:70px;
+	margin:0px;
+	font-family:"memory";
+	font-size: 60px;
+	letter-spacing: 5px;
+	word-spacing: 15px;
+	font-weight:600;
+}
+.services-group{
+	padding:0px;
+	margin:20px 0px 10px 0px;
+}
+/*模块的身体样式*/
+.services-body{
+	width:100%;
+	height:360px;
+}
+.services-body img{
+	width:100%;
+	height:100%;
+}
+/*模块底部样式*/
+.services-foot{
+	width:100%;
+	height:70px;
+	border-radius:0px 0px 20px 0px;
+	margin:0px;
+}
+.services-foot h3{
+	color:#018CAE;
+	line-height:70px;
+	margin:0px;
+	font-family:"华文行楷";
+	font-size: 60px;
+	letter-spacing: 20px;
+	word-spacing: 15px;
+	font-weight:bold;
+}
+/*尾部样式设置*/
+.footer{
+	width:100%;
+	font-size:22px;
+	text-align:center;
+}
+.footer p{
+	display:inline-block;
+	overflow:hidden;
+}
+.footer span{
+	margin-left:20px;
+	line-height:30px;
+}
+/*隐藏div的样式*/
+.hide-div{
+	position:absolute;
+	z-index:1;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border-radius:20px;
+	background:#1C6885;
+	opacity:0.4;
+	display:none;
+}
+.glyphicon{
+	position:absolute;
+	z-index:2;
+	top:50%;
+	left:50%;
+	margin-left:-50px;
+	margin-top:-50px;
+	font-size:100px;
+	color:#E82429;
+	display:none;
+
+}
